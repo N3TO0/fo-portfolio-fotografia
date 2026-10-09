@@ -22,10 +22,17 @@
 }
 .tema-light {
   background-color: var(--color-second);
+  .menu-hidden {
+    background-color: var(--color-second);
+    a {
+      color: var(--text-color-black);
+    }
+  }
+  .mode-button{
+    background-color: var(--color-third);
+  }
 }
 
 .hidden {
   display: none;
 }
-
-

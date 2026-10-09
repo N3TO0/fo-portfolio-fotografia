@@ -1,3 +1,5 @@
+
+
 // Função de selecionar tag html
 function select(tag) {
   return document.querySelector(tag);
@@ -17,16 +19,28 @@ const headerMain = select(".menu-select");
 const iconBtMenu = select(".img-menu");
 let menuHiddenActive = true;
 
+// Evento para menu mobile aparecer
 buttonMenu.addEventListener("click", () => {
   headerMain.classList.toggle("menu-hidden");
-
-  if (menuHiddenActive) {
-    iconBtMenu.setAttribute("src", "src/icon/icon-menu-black.png");
-    menuHiddenActive = false;
+  // consição para verificar se o tema dark
+  if (temaPage == "dark") {
+    if (menuHiddenActive) {
+      iconBtMenu.setAttribute("src", "src/icon/icon-menu-black.png");
+      menuHiddenActive = false;
+    } else {
+      iconBtMenu.setAttribute("src", "src/icon/icon-menu-white.png");
+      menuHiddenActive = true;
+    }
+  // consição para verificar se o tema light
   } else {
-    iconBtMenu.setAttribute("src", "src/icon/icon-menu-white.png");
-    menuHiddenActive = true;
+    if (menuHiddenActive) {
+      iconBtMenu.setAttribute("src", "src/icon/icon-menu-white.png");
+      menuHiddenActive = false;
+
+    } else {
+      iconBtMenu.setAttribute("src", "src/icon/icon-menu-black.png");
+      menuHiddenActive = true;
+
+    }
   }
 });
-
-

@@ -43,6 +43,7 @@
   background-color: transparent;
   display: flex;
   justify-content: end;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
   .button-menu {
     border: none;
     background-color: transparent;
@@ -62,25 +63,16 @@
   nav {
     display: none;
   }
-  .button-menu {
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    top: 4vw;
-    left: 4vw;
-    padding: 0;
-    img {
-      width: 14vw;
-    }
-  }
+
   .mode-button {
+    border: none;
     position: absolute;
     display: flex;
-    right: 4vw;
-    top: 4vw;
-    margin: 3px 0px;
+    right: 6vw;
+    top: 5vw;
+    margin: 5px 0px;
     img {
-      width: 6vw;
+      width: 5vw;
       padding: 5px 0vw;
     }
   }
@@ -112,15 +104,16 @@
     height: fit-content;
     background-color: transparent;
 
-    .mode-button {
-      margin-right: 4vw;
-      margin-top: 1vw;
-      img {
-        width: 25px;
-      }
-    }
-    */ .logo-header {
+
+
+    .logo-header {
       display: none;
+    }
+
+    .mode-button {
+      img {
+        width: 20px;
+      }
     }
 
     nav {
