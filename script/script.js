@@ -1,12 +1,10 @@
+// Função de selecionar tag html
 function select(tag) {
   return document.querySelector(tag);
 }
 
-// src = "src/icon/icon-menu-white.png";
-// src = "src/icon/icon-menu-black.png";
-// src = "src/icon/icon-menu-brown.png";
+// Funcionalidades de menu "mobile":
 
-// Funcionalidade de menu "mobile":
 const buttonMenu = select(".button-menu");
 const headerMain = select(".menu-select");
 const btMenu = select(".img-menu");
