@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap");
+
+:root {
+  --font-1: Bebas Neue;
+  --font-2: "Inconsolata", monospace;
+
+  --color-first: #9f5c32;
+  --color-second: #dddddd;
+  --color-third: #000000;
+  --color-fourth: #ffffff;
+
+  --text-color-white: #ffffff;
+  --text-color-black: #000000;
+  --text-color-brown: #9f5c32;
+
+  --color-header-mobile-white: #ffffffe3;
+  --color-header-mobile-black: #9f5c32e3;
+}
+
+.tema-dark {
+  background-color: var(--color-first);
+  .menu-hidden {
+    background-color: var(--color-third);
+    a {
+      color: var(--text-color-white);
+      text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.60);
+    }
+  }
+  .mode-button {
+    background-color: var(--color-fourth);
+  }
+}
+.tema-light {
+  background-color: var(--color-second);
+  .menu-hidden {
+    background-color: var(--color-second);
+    a {
+      color: var(--text-color-black);
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.37);
+    }
+  }
+  .mode-button {
+    background-color: var(--color-third);
+  }
+}
+
+.hidden {
+  display: none;
+}
