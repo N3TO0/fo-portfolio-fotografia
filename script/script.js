@@ -29,19 +29,4 @@ buttonMenu.addEventListener("click", () => {
   }
 });
 
-// Funcionalidade de troca de tema do site:
 
-let temaDark = true;
-const buttonTema = select(".mode-button");
-
-buttonTema.addEventListener("click", () => {
-  if (temaDark) {
-    alert("tema branco");
-    temaDark = false;
-  } else {
-    alert("tema escuro");
-    temaDark = true;
-  }
-
-  alert("teste ok");
-});

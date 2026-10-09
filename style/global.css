@@ -17,11 +17,15 @@
   --color-header-mobile-black: #9f5c32e3;
 }
 
-html {
+.tema-dark {
   background-color: var(--color-first);
+}
+.tema-light {
+  background-color: var(--color-second);
 }
 
 .hidden {
   display: none;
 }
+
 
