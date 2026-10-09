@@ -19,6 +19,16 @@
 
 .tema-dark {
   background-color: var(--color-first);
+  .menu-hidden {
+    background-color: var(--color-third);
+    a {
+      color: var(--text-color-white);
+      text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.60);
+    }
+  }
+  .mode-button {
+    background-color: var(--color-fourth);
+  }
 }
 .tema-light {
   background-color: var(--color-second);
@@ -26,9 +36,10 @@
     background-color: var(--color-second);
     a {
       color: var(--text-color-black);
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.37);
     }
   }
-  .mode-button{
+  .mode-button {
     background-color: var(--color-third);
   }
 }
