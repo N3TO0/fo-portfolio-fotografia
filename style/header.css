@@ -1,4 +1,5 @@
 .menu-select {
+  position: fixed;
   width: 100%;
   height: 70vh;
   background-color: #ffffffe3;
