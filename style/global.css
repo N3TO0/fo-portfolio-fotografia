@@ -13,34 +13,73 @@
   --text-color-black: #000000;
   --text-color-brown: #9f5c32;
 
-  --color-header-mobile-white: #ffffffe3;
-  --color-header-mobile-black: #9f5c32e3;
+  --color-header-tema-light: #ffffffe3;
+  --color-header-tema-dark: #000000;
 }
 
 .tema-dark {
+  /* Estilo header (monile-tablet)*/
   background-color: var(--color-first);
+
+  .menu-select {
+    background-color: var(--color-header-tema-light);
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+  }
   .menu-hidden {
-    background-color: var(--color-third);
+    background-color: transparent;
+    box-shadow: none;
     a {
       color: var(--text-color-white);
-      text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.60);
+      text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.6);
     }
   }
   .mode-button {
     background-color: var(--color-fourth);
   }
+
+  /* Estilo header (desktop) */
+  @media (min-width: 1000px) {
+    .menu-select {
+      background-color: var(--color-header-tema-dark);
+      box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+
+      a {
+        color: var(--text-color-white);
+        text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.25);
+      }
+    }
+  }
 }
 .tema-light {
+  /* Estilo header (mobile-tablet) */
   background-color: var(--color-second);
-  .menu-hidden {
-    background-color: var(--color-second);
+  .menu-select {
+    background-color: var(--color-header-tema-dark);
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+
     a {
-      color: var(--text-color-black);
-      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.37);
+      color: var(--text-color-white);
+      text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.356);
     }
+  }
+  .menu-hidden {
+    background-color: transparent;
+    box-shadow: none;
   }
   .mode-button {
     background-color: var(--color-third);
+  }
+
+  /* Estilo header (desktop) */
+  @media (min-width: 1000px) {
+    .menu-select {
+      background-color: var(--color-second);
+      box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+      a {
+        color: var(--text-color-black);
+        text-shadow: 4px 4px 6px rgba(14, 0, 0, 0.25);
+      }
+    }
   }
 }
 
