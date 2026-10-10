@@ -100,7 +100,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8vw;
+  padding: 0 8vw;
 }
 hr {
   margin: 0vw 8vw;
@@ -108,7 +108,7 @@ hr {
 
 @media (min-width: 500px) {
   section {
-    padding: 10vw;
+    padding: 0 10vw;
   }
   hr {
     margin: 0vw 10vw;
@@ -117,9 +117,9 @@ hr {
 
 @media (min-width: 1000px) {
   section {
-    padding: 25vw;
+    padding: 0px 20vw;
   }
   hr {
-    margin: 0vw 25vw;
+    margin: 0vw 20vw;
   }
 }

@@ -11,6 +11,7 @@
       "img-banner"
       "img-content"
       "button";
+
     .img-banner-home {
       grid-area: img-banner;
       justify-content: center;
@@ -20,6 +21,7 @@
         height: fit-content;
       }
     }
+    
     .img-content-home {
       grid-area: img-content;
       height: fit-content;
@@ -49,15 +51,112 @@
   #home {
     .home-container {
       width: 100%;
-      height: 75%;
+      height: 50vh;
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 2vw;
+      grid-template-areas:
+        "img-content img-banner"
+        "button img-banner";
+
+      .img-banner-home {
+        grid-area: img-banner;
+        justify-content: center;
+        align-self: center;
+        align-items: end;
+        img {
+          width: 100%;
+          height: 80%;
+        }
+      }
+      .img-content-home {
+        grid-area: img-content;
+        height: fit-content;
+        justify-content: center;
+        align-self: end;
+        img {
+          width: 100%;
+          height: fit-content;
+        }
+      }
+      .buttom-contact-home {
+        grid-area: button;
+        align-self: start;
+        justify-self: center;
+        width: fit-content;
+        height: fit-content;
+        background-color: var(--color-third);
+        padding: 1.5vw 12vw;
+        border: none;
+        color: var(--text-color-white);
+        font-family: var(--font-1);
+        letter-spacing: 1.2px;
+        font-size: 2vw;
+        font-weight: 100;
+      }
     }
   }
 }
 @media (min-width: 1000px) {
   #home {
+    padding: 80px 25vw 0 25vw;
     .home-container {
       width: 100%;
-      height: 100%;
+      height: fit-content;
+
+      box-sizing: border-box;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 2fr auto;
+      gap: 2vw;
+      grid-template-areas:
+        "img-content img-banner"
+        "button img-banner";
+
+      .img-banner-home {
+        grid-area: img-banner;
+        justify-content: center;
+        align-self: end;
+        align-items: end;
+        img {
+          width: 100%;
+          height: 80%;
+        }
+      }
+      .img-content-home {
+        grid-area: img-content;
+        height: fit-content;
+        justify-content: center;
+        align-self: end;
+        img {
+          width: 100%;
+          height: fit-content;
+        }
+      }
+      .buttom-contact-home {
+        margin-bottom: 4vh;
+        grid-area: button;
+        align-self: start;
+        justify-self: center;
+        width: fit-content;
+        height: fit-content;
+        background-color: var(--color-third);
+        padding: 1vw 5vw;
+        border: none;
+        color: var(--text-color-white);
+        font-family: var(--font-1);
+        letter-spacing: 1.2px;
+        font-size: 1.4vw;
+        font-weight: 100;
+      }
     }
+  }
+}
+
+@media (min-width: 1900px) {
+  #home {
+    padding-top: 90px;
   }
 }

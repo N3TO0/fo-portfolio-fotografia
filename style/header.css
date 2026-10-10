@@ -122,9 +122,10 @@
     }
   }
 }
+
 @media (min-width: 1000px) {
   .menu-hidden {
-    height: 100px;
+    height: 84px;
     padding-top: 0px;
     background-color: var(--color-third);
     justify-content: space-between;
@@ -136,12 +137,13 @@
 
     .logo-header {
       display: flex;
-      width: 8vw;
+      width: 70px;
       margin-top: 1vw;
     }
 
     nav {
       display: flex;
+      padding-right: 45px;
       ul {
         display: flex;
         flex-direction: row;
@@ -153,23 +155,13 @@
         text-align: center;
       }
       a {
-        font-size: 2.2vw;
+        font-size: 20px;
         font-family: var(--font-1);
         color: var(--text-color-white);
         text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.37);
       }
     }
-    .mode-button {
-      position: absolute;
-      display: flex;
-      right: 4vw;
-      top: 4vw;
-      margin: 3px 0px;
-      img {
-        width: 20px;
-        padding: 5px 0vw;
-      }
-    }
+
     .mode-button {
       position: relative;
       right: 0;
@@ -183,9 +175,9 @@
     }
   }
 }
+
 @media (min-width: 1400px) {
   .menu-hidden {
-    height: 100px;
     background-color: var(--color-third);
     justify-content: space-between;
     padding: 0px 6vw;
@@ -202,6 +194,7 @@
 
     nav {
       display: flex;
+      padding-right: 55px;
       ul {
         display: flex;
         flex-direction: row;
@@ -212,7 +205,7 @@
         text-align: center;
       }
       a {
-        font-size: 24px;
+        font-size: 20px;
         padding-top: 0.2vw;
         font-family: var(--font-1);
         color: var(--text-color-white);
@@ -232,7 +225,7 @@
 
 @media (min-width: 1900px) {
   .menu-hidden {
-    height: 100px;
+    height: 90px;
     background-color: var(--color-third);
     justify-content: space-between;
     padding: 0px 6vw;
@@ -249,6 +242,7 @@
 
     nav {
       display: flex;
+      padding-right: calc(4vw + 25px);
       ul {
         display: flex;
         flex-direction: row;
