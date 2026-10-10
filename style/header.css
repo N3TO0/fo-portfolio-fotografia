@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999;
   .mode-button,
   .logo-header {
     display: none;
@@ -22,6 +23,7 @@
   }
   a {
     font-size: 30px;
+    letter-spacing: 1.5px;
     font-family: var(--font-1);
     color: var(--text-color-black);
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.37);
@@ -104,8 +106,6 @@
     width: 100%;
     height: fit-content;
     background-color: transparent;
-
-
 
     .logo-header {
       display: none;
