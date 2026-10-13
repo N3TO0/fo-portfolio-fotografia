@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="pt-br" class="tema-dark">
-  
   <head>
     <link rel="stylesheet" href="style/style.css" />
     <meta charset="UTF-8" />
@@ -19,7 +18,7 @@
         />
       </button>
 
-      <a href="#home"
+      <a href="#home" title="Seção Inicial"
         ><img
           class="logo-header"
           src="src/img/logo-white.png"
@@ -28,14 +27,14 @@
 
       <nav>
         <ul>
-          <li><a href="#">PROFISSIONAL</a></li>
-          <li><a href="#">PORTFÓLIO</a></li>
-          <li><a href="#">SERVIÇOS</a></li>
-          <li><a href="#">CONTATOS</a></li>
+          <li><a href="#" title="Seção Sobre Mim">PROFISSIONAL</a></li>
+          <li><a href="#" title="Seção de Portifólio">PORTFÓLIO</a></li>
+          <li><a href="#" title="Seção de Serviços">SERVIÇOS</a></li>
+          <li><a href="#" title="Seção de Depoimentos">Depoimentos</a></li>
         </ul>
       </nav>
 
-      <button class="mode-button">
+      <button class="mode-button" title="Mude o Tema">
         <img
           class="icon-mode"
           src="src/icon/icon-dark-mode.png"
@@ -43,6 +42,7 @@
         />
       </button>
     </header>
+
     <main>
       <section id="home">
         <div class="home-container">
@@ -68,7 +68,13 @@
             />
             <img src="src/img/banner-content-home-mobile.png" alt="" />
           </picture>
-          <a href="#" class="buttom-contact-home">Contate-me</a>
+          <a
+            href="#"
+            title="Entre em Contato Comigo"
+            target="_blank"
+            class="buttom-contact-home"
+            >Contate-me</a
+          >
         </div>
       </section>
 
@@ -76,11 +82,126 @@
 
       <!-- <section></section> -->
     </main>
-    
-    <footer></footer>
+
+    <footer class="footer-primary">
+      <img
+        class="logo-footer"
+        src="src/img/logo-white.png"
+        alt="Logo do Fo Fotografia"
+      />
+
+      <nav>
+        <ul>
+          <li><a href="">Profissional</a></li>
+          <li><a href="">Portfólio</a></li>
+          <li><a href="">Serviços</a></li>
+          <li><a href="">Contatos</a></li>
+        </ul>
+      </nav>
+
+      <div class="data-professional container-1">
+        <h3>PROFISSIONAL</h3>
+        <p>Fotografa Rafael Almeida</p>
+        <div class="links-social">
+          <a
+            href="#"
+            title="Instagram do Fotografo"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="src/icon/icon-instagram-footer.png"
+              alt="icone do instagram"
+          /></a>
+          <a
+            href="#"
+            title="Whatsapp do Fotografo"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="src/icon/icon-whatsapp-footer.png"
+              alt="icone do whatsapp"
+          /></a>
+          <a
+            href="#"
+            title="Linkedin do Fotografo"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="src/icon/icon-linkedin-footer.png"
+              alt="icone do linkedin"
+          /></a>
+          <a
+            href="#"
+            title="E-mail do Fotografo"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="src/icon/icon-e-mail-footer.png" alt="icone do e-mail"
+          /></a>
+        </div>
+      </div>
+
+      <div class="data-professional container-2">
+        <h3>HORARIOS</h3>
+        <p>Segunda a sexta, das 16:00 as 20:00.</p>
+        <p>Domingo e sábado, das 8:00 as 20:00.</p>
+      </div>
+
+      <div class="data-professional container-3">
+        <h3>SITE</h3>
+        <p>Desenvolvedor Iderval Neto</p>
+        <div class="links-social">
+          <a
+            href="#"
+            title="Site do Desenvolvedor"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="src/icon/icon-site-footer.png"
+              alt="icone do Site do Desenvolvedor"
+          /></a>
+          <a
+            href="#"
+            title="Instagram do Desenvolvedor"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="src/icon/icon-instagram-footer.png"
+              alt="icone do instagram"
+          /></a>
+          <a
+            href="#"
+            title="Whatsapp do Desenvolvedor"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="src/icon/icon-whatsapp-footer.png"
+              alt="icone do whatsapp"
+          /></a>
+          <a
+            href="#"
+            title="Linkedin do Desenvolvedor"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="src/icon/icon-linkedin-footer.png"
+              alt="icone do linkedin"
+          /></a>
+          <a
+            href="#"
+            title="E-mail do Desenvolvedor"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="src/icon/icon-e-mail-footer.png" alt="icone do e-mail"
+          /></a>
+        </div>
+      </div>
+
+      <div class="ms-footer">
+        <p>© 2025 FO Fotografia | Rafael Almeida. Todos os direitos reservados.</p>
+      </div>
+    </footer>
 
     <script src="script/script.js" defer></script>
     <script src="script/tema.js" defer></script>
   </body>
-
 </html>
