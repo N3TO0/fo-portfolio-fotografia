@@ -69,6 +69,7 @@
 
   .mode-button {
     border: none;
+    cursor: pointer;
     position: absolute;
     display: flex;
     right: 6vw;
