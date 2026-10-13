@@ -100,18 +100,34 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 8vw;
+  padding: 20vw 8vw;
 }
+
 hr {
   margin: 0vw 8vw;
+}
+
+.title-section {
+  font-family: var(--font-1);
+  font-size: 10vw;
+  letter-spacing: 2vw;
+  color: var(--text-color-white);
 }
 
 @media (min-width: 500px) {
   section {
     padding: 0 10vw;
   }
+
   hr {
     margin: 0vw 10vw;
+  }
+
+  .title-section {
+    font-family: var(--font-1);
+    font-size: 10vw;
+    letter-spacing: 2vw;
+    color: var(--text-color-white);
   }
 }
 
@@ -119,7 +135,15 @@ hr {
   section {
     padding: 0px 20vw;
   }
+
   hr {
     margin: 0vw 20vw;
+  }
+
+  .title-section {
+    font-family: var(--font-1);
+    font-size: 10vw;
+    letter-spacing: 2vw;
+    color: var(--text-color-white);
   }
 }
