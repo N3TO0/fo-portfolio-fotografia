@@ -82,6 +82,7 @@
     .p-1 {
       grid-area: p1;
       align-self: start;
+      padding-right: 1.3vw;
     }
 
     .img-about-2 {
@@ -91,6 +92,8 @@
     .p-2 {
       grid-area: p2;
       margin-top: 1vw;
+      padding-right: 1.3vw;
+      padding-left: 0.8vw;
     }
     h2,
     p {
@@ -180,6 +183,7 @@
       grid-area: p1;
       align-self: start;
       padding-bottom: 1vw;
+      padding-right: 1vw;
     }
 
     .img-about-2 {
@@ -188,7 +192,9 @@
 
     .p-2 {
       grid-area: p2;
-      margin-top: 1.5vw;
+      margin-top: 0.8vw;
+      padding-right: 1vw;
+      padding-left: 0.5vw;
     }
     h2,
     p {
