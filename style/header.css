@@ -279,7 +279,7 @@
 
 @media (min-width: 1900px) {
   .menu-hidden {
-    height: 90px;
+    height: 70px;
     background-color: var(--color-third);
     justify-content: space-between;
     padding: 0px 18vw;
