@@ -124,13 +124,67 @@
   }
 }
 
+@media (min-width: 700px) {
+  .menu-hidden {
+    height: 80px;
+    padding-top: 0px;
+    background-color: var(--color-third);
+    justify-content: space-between;
+    padding: 0px 4vw;
+
+    .button-menu {
+      display: none;
+    }
+
+    .logo-header {
+      display: flex;
+      width: 70px;
+      margin-top: 1vw;
+    }
+
+    nav {
+      display: flex;
+      padding-right: 45px;
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 6vw;
+        margin: 0vw;
+      }
+
+      li {
+        text-align: center;
+      }
+      a {
+        font-size: 20px;
+        font-family: var(--font-1);
+        color: var(--text-color-white);
+        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.37);
+      }
+    }
+
+    .mode-button {
+      position: relative;
+      right: 0;
+      top: 0;
+      display: flex;
+      margin: 0;
+      img {
+        width: 20px;
+        padding: 5px 0vw;
+      }
+    }
+  }
+}
+
 @media (min-width: 1000px) {
   .menu-hidden {
     height: 84px;
     padding-top: 0px;
     background-color: var(--color-third);
     justify-content: space-between;
-    padding: 0px 6vw;
+    padding: 0px 12vw;
+    padding-left: 14vw;
 
     .button-menu {
       display: none;
@@ -181,7 +235,7 @@
   .menu-hidden {
     background-color: var(--color-third);
     justify-content: space-between;
-    padding: 0px 6vw;
+    padding: 0px 16.5vw;
 
     .button-menu {
       display: none;
@@ -229,7 +283,7 @@
     height: 90px;
     background-color: var(--color-third);
     justify-content: space-between;
-    padding: 0px 6vw;
+    padding: 0px 18vw;
 
     .button-menu {
       display: none;
