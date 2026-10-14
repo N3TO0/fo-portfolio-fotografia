@@ -126,7 +126,7 @@
 
 @media (min-width: 700px) {
   .menu-hidden {
-    height: 80px;
+    height: 65px;
     padding-top: 0px;
     background-color: var(--color-third);
     justify-content: space-between;
@@ -139,7 +139,7 @@
     .logo-header {
       display: flex;
       width: 70px;
-      margin-top: 1vw;
+      margin-top: 0.8vw;
     }
 
     nav {
@@ -179,7 +179,7 @@
 
 @media (min-width: 1000px) {
   .menu-hidden {
-    height: 84px;
+    height: 65px;
     padding-top: 0px;
     background-color: var(--color-third);
     justify-content: space-between;
@@ -193,7 +193,6 @@
     .logo-header {
       display: flex;
       width: 70px;
-      margin-top: 1vw;
     }
 
     nav {
@@ -292,7 +291,7 @@
     .logo-header {
       display: flex;
       width: 4vw;
-      margin-top: 0.5vw;
+      margin-top: 0.7vw;
     }
 
     nav {
