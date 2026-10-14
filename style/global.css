@@ -43,7 +43,7 @@
   }
 
   /* Estilo header (desktop) */
-  @media (min-width: 1000px) {
+  @media (min-width: 700px) {
     .menu-select {
       background-color: var(--color-header-tema-dark);
       box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
@@ -79,7 +79,7 @@
   }
 
   /* Estilo header (desktop) */
-  @media (min-width: 1000px) {
+  @media (min-width: 700px) {
     .menu-select {
       background-color: var(--color-second);
       box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
@@ -172,7 +172,7 @@ hr {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1900px) {
   section {
     padding: 0px 20vw;
     padding-top: 90px;
