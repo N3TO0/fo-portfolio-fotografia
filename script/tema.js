@@ -10,6 +10,10 @@ const htmlTema = select("html");
 // Icones e logos
 const logoHeader = select(".logo-header");
 const iconMode = select(".icon-mode");
+const iconWhatsappAbout = select(".about-whatsapp");
+const iconLinkedinAbout = select(".about-linkedin");
+const iconInstagramAbout = select(".about-instagram");
+const iconEmailAbout = select(".about-e-mail");
 
 // Evento de click para troca de tema
 buttonTema.addEventListener("click", () => {
@@ -41,6 +45,10 @@ function alterFileTema() {
     alterSrc(iconMode, "icon", "icon-dark-mode.png");
     alterSrc(logoHeader, "img", "logo-white.png");
     alterSrc(iconBtMenu, "icon", "icon-menu-white.png");
+    alterSrc(iconWhatsappAbout, "icon", "icon-whatsapp-black.png");
+    alterSrc(iconLinkedinAbout, "icon", "icon-linkedin-black.png");
+    alterSrc(iconInstagramAbout, "icon", "icon-instagram-black.png");
+    alterSrc(iconEmailAbout, "icon", "icon-e-mail-black.png");
   }
   // troca de arquivos para tema light
   else {
@@ -48,6 +56,10 @@ function alterFileTema() {
     alterSrc(iconMode, "icon", "icon-light-mode.png");
     alterSrc(logoHeader, "img", "logo-black.png");
     alterSrc(iconBtMenu, "icon", "icon-menu-black.png");
+    alterSrc(iconWhatsappAbout, "icon", "icon-whatsapp-white.png");
+    alterSrc(iconLinkedinAbout, "icon", "icon-linkedin-white.png");
+    alterSrc(iconInstagramAbout, "icon", "icon-instagram-white.png");
+    alterSrc(iconEmailAbout, "icon", "icon-email-white.png");
   }
 }
 
