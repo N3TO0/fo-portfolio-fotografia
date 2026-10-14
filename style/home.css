@@ -11,7 +11,7 @@
       "img-banner"
       "img-content"
       "button";
-
+      
     .img-banner-home {
       grid-area: img-banner;
       justify-content: center;
@@ -21,7 +21,7 @@
         height: fit-content;
       }
     }
-    
+
     .img-content-home {
       grid-area: img-content;
       height: fit-content;
