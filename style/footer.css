@@ -87,7 +87,7 @@
     display: grid;
     row-gap: 5vw;
     column-gap: 2vw;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.8fr 1fr;
     grid-template-rows: 1.5fr 3fr auto;
     grid-template-areas:
       "nav nav logo"
@@ -97,8 +97,8 @@
     .logo-footer {
       grid-area: logo;
       align-self: center;
-      justify-self: center;
-      margin-left: 0vw;
+      justify-self: end;
+      margin-right: 2vw;
       width: 10vw;
       margin-top: 2.4vw;
       margin-left: 3vw;
@@ -107,10 +107,11 @@
       grid-area: nav;
       align-self: center;
       justify-self: center;
+      padding-left: 2.2vw;
       ul {
         display: flex;
         flex-direction: row;
-        gap: 5.4vw;
+        gap: 4vw;
         justify-content: center;
         align-items: center;
       }
@@ -151,8 +152,8 @@
       }
       p {
         font-weight: 300;
-        font-size: 2.2vw;
-        line-height: 3vw;
+        font-size: 2vw;
+        line-height: 2.6vw;
         font-family: var(--font-2);
       }
       .links-social {
@@ -163,7 +164,7 @@
         align-items: center;
         gap: 3vw;
         img {
-          width: 2.6vw;
+          width: 2.4vw;
         }
       }
     }
@@ -186,6 +187,7 @@
     }
   }
 }
+
 @media (min-width: 1000px) {
   .footer-primary {
     padding-top: 1.5vw;
@@ -303,6 +305,7 @@
     }
   }
 }
+
 @media (min-width: 1900px) {
   .footer-primary {
     padding-top: 1.5vw;
