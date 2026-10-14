@@ -1,0 +1,325 @@
+#portfolio {
+  height: fit-content;
+
+  .container-portfolio {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+  }
+  .content-portfolio {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    gap: 2.5vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      " img1 img1"
+      " img2 img2"
+      " img3 img4"
+      " img5 img5"
+      " img6 img6"
+      " img7 img7";
+
+    .img1 {
+      grid-area: img1;
+    }
+
+    .img2 {
+      grid-area: img2;
+    }
+
+    .img3 {
+      grid-area: img3;
+    }
+
+    .img4 {
+      grid-area: img4;
+    }
+
+    .img5 {
+      grid-area: img5;
+    }
+
+    .img6 {
+      grid-area: img6;
+    }
+    .img7 {
+      grid-area: img7;
+    }
+    picture {
+      img {
+        width: 100%;
+        height: fit-content;
+        box-shadow: 4px 4px 8px rgba(7, 0, 0, 0.39);
+      }
+    }
+  }
+  .button-portfolio {
+    width: 100%;
+    height: 60px;
+    font-family: var(--font-1);
+    background-color: var(--color-second);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1vw;
+    font-size: 5.2vw;
+    margin-top: 8vw;
+    color: var(--color-third);
+    box-shadow: 4px 4px 8px rgba(7, 0, 0, 0.39);
+  }
+}
+
+@media (min-width: 500px) {
+  #portfolio {
+    height: fit-content;
+    padding-bottom: 10vw;
+
+    .container-portfolio {
+      display: grid;
+      gap: 3vw;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas:
+        "title button"
+        "photos photos";
+
+      .title-section {
+        grid-area: title;
+        margin-bottom: 0;
+      }
+      .content-portfolio {
+        grid-area: photos;
+      }
+      .button-portfolio {
+        grid-area: button;
+        justify-self: end;
+        align-self: center;
+      }
+    }
+    .content-portfolio {
+      width: 100%;
+      height: fit-content;
+      display: grid;
+      gap: 2vw;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      grid-template-rows: repeat(4, auto);
+      grid-template-areas:
+        " img1 img1 img7"
+        " img1 img1 img6"
+        " img5 img3 img4"
+        " img2 img3 img4";
+
+      .img1 {
+        grid-area: img1;
+      }
+
+      .img2 {
+        grid-area: img2;
+      }
+
+      .img3 {
+        grid-area: img3;
+      }
+
+      .img4 {
+        grid-area: img4;
+      }
+
+      .img5 {
+        grid-area: img5;
+      }
+
+      .img6 {
+        grid-area: img6;
+      }
+      .img7 {
+        grid-area: img7;
+      }
+      picture {
+        img {
+          width: 100%;
+          height: fit-content;
+        }
+      }
+    }
+    .button-portfolio {
+      width: 74%;
+      height: 30px;
+      letter-spacing: 0.1vw;
+      font-size: 1.7vw;
+      margin-top: 0vw;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #portfolio {
+    height: 100vh;
+    padding-bottom: 3vw;
+    padding-top: calc(3vw + 60px);
+
+    .container-portfolio {
+      display: grid;
+      gap: 1vw;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas:
+        "title button"
+        "photos photos";
+
+      .title-section {
+        grid-area: title;
+        margin-bottom: 0;
+      }
+      .content-portfolio {
+        grid-area: photos;
+      }
+      .button-portfolio {
+        grid-area: button;
+        justify-self: end;
+        align-self: center;
+      }
+    }
+    .content-portfolio {
+      width: 100%;
+      height: fit-content;
+      display: grid;
+      gap: 1vw;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      grid-template-rows: auto auto 1fr 1fr;
+      grid-template-areas:
+        " img1 img1 img7"
+        " img1 img1 img6"
+        " img5 img3 img4"
+        " img2 img3 img4";
+
+      .img1 {
+        grid-area: img1;
+      }
+
+      .img2 {
+        grid-area: img2;
+      }
+
+      .img3 {
+        grid-area: img3;
+      }
+
+      .img4 {
+        grid-area: img4;
+      }
+
+      .img5 {
+        grid-area: img5;
+      }
+
+      .img6 {
+        grid-area: img6;
+      }
+      .img7 {
+        grid-area: img7;
+      }
+      picture {
+        img {
+          width: 100%;
+          height: fit-content;
+        }
+      }
+    }
+    .button-portfolio {
+      height: 30px;
+      letter-spacing: 1px;
+      font-size: 1vw;
+      margin-top: 0vw;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  #portfolio {
+    height: fit-content;
+    padding-bottom: 3vw;
+    padding-top: calc(3vw + 60px);
+
+    .container-portfolio {
+      display: grid;
+      gap: 1vw;
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(2, auto);
+      grid-template-areas:
+        "title button"
+        "photos photos";
+
+      .title-section {
+        grid-area: title;
+        margin-bottom: 0;
+      }
+      .content-portfolio {
+        grid-area: photos;
+      }
+      .button-portfolio {
+        grid-area: button;
+        justify-self: end;
+        align-self: center;
+      }
+    }
+    .content-portfolio {
+      width: 100%;
+      height: fit-content;
+      display: grid;
+      gap: 1vw;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      grid-template-rows: auto auto 1fr 1fr;
+      grid-template-areas:
+        " img1 img1 img7"
+        " img1 img1 img6"
+        " img5 img3 img4"
+        " img2 img3 img4";
+
+      .img1 {
+        grid-area: img1;
+      }
+
+      .img2 {
+        grid-area: img2;
+      }
+
+      .img3 {
+        grid-area: img3;
+      }
+
+      .img4 {
+        grid-area: img4;
+      }
+
+      .img5 {
+        grid-area: img5;
+      }
+
+      .img6 {
+        grid-area: img6;
+      }
+      .img7 {
+        grid-area: img7;
+      }
+      picture {
+        img {
+          width: 100%;
+          height: fit-content;
+        }
+      }
+    }
+    .button-portfolio {
+      height: 3vw;
+      letter-spacing: 1px;
+      font-size: 1vw;
+      margin-top: 0vw;
+    }
+  }
+}

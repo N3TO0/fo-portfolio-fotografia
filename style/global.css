@@ -63,17 +63,19 @@
   background-color: var(--color-second);
   .menu-select {
     background-color: var(--color-header-tema-dark);
-    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 25px rgba(247, 245, 245, 0.25);
 
     a {
-      color: var(--text-color-black);
+      color: var(--text-color-white);
       text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.267);
     }
   }
+
   .menu-hidden {
     background-color: transparent;
     box-shadow: none;
   }
+  
   .mode-button {
     background-color: var(--color-third);
   }
@@ -89,10 +91,12 @@
       }
     }
   }
+
   main {
     h1 {
       color: var(--text-color-black);
     }
+
     #about {
       p,
       h2 {
@@ -102,6 +106,13 @@
         img {
           background-color: var(--color-third);
         }
+      }
+    }
+
+    #portfolio {
+      .button-portfolio {
+        background-color: var(--color-third);
+        color: var(--text-color-white);
       }
     }
   }
@@ -125,6 +136,7 @@ hr {
 }
 
 .title-section {
+  margin-bottom: 8vw;
   font-family: var(--font-1);
   font-size: 10vw;
   letter-spacing: 2vw;
@@ -155,7 +167,7 @@ hr {
 @media (min-width: 1000px) {
   section {
     padding: 0px 20vw;
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   hr {
