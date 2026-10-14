@@ -10,11 +10,11 @@
   --color-fourth: #ffffff;
 
   --text-color-white: #ffffff;
-  --text-color-black: #000000;
+  --text-color-black: #000000ec;
   --text-color-brown: #9f5c32;
 
   --color-header-tema-light: #fffffff3;
-  --color-header-tema-dark: #000000f3;
+  --color-header-tema-dark: #000000ec;
 }
 
 .tema-dark {
@@ -29,6 +29,7 @@
     background-color: var(--color-header-tema-light);
     box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
   }
+
   .menu-hidden {
     background-color: transparent;
     box-shadow: none;
@@ -65,7 +66,7 @@
     box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
 
     a {
-      color: var(--text-color-white);
+      color: var(--text-color-black);
       text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.267);
     }
   }
@@ -88,6 +89,22 @@
       }
     }
   }
+  main {
+    h1 {
+      color: var(--text-color-black);
+    }
+    #about {
+      p,
+      h2 {
+        color: var(--text-color-black);
+      }
+      .section-socials {
+        img {
+          background-color: var(--color-third);
+        }
+      }
+    }
+  }
 }
 
 .hidden {
@@ -100,26 +117,64 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 8vw;
+  padding: 20vw 8vw;
 }
+
 hr {
   margin: 0vw 8vw;
+}
+
+.title-section {
+  font-family: var(--font-1);
+  font-size: 10vw;
+  letter-spacing: 2vw;
+  color: var(--text-color-white);
+  text-align: center;
+  text-shadow: 4px 4px 8px rgba(7, 0, 0, 0.329);
 }
 
 @media (min-width: 500px) {
   section {
     padding: 0 10vw;
   }
+
   hr {
     margin: 0vw 10vw;
+  }
+
+  .title-section {
+    font-family: var(--font-1);
+    font-size: 4vw;
+    letter-spacing: 0.8vw;
+    color: var(--text-color-white);
+    text-align: start;
+    text-shadow: 4px 4px 8px rgba(7, 0, 0, 0.329);
   }
 }
 
 @media (min-width: 1000px) {
   section {
     padding: 0px 20vw;
+    padding-top: 80px;
   }
+
   hr {
     margin: 0vw 20vw;
+  }
+
+  .title-section {
+    font-family: var(--font-1);
+    font-size: 2.5vw;
+    letter-spacing: 0.6vw;
+    color: var(--text-color-white);
+    height: fit-content;
+    text-shadow: 4px 4px 8px rgba(7, 0, 0, 0.329);
+  }
+}
+
+@media (min-width: 1000px) {
+  section {
+    padding: 0px 20vw;
+    padding-top: 90px;
   }
 }
