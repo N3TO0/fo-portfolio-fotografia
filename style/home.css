@@ -47,6 +47,7 @@
     }
   }
 }
+
 @media (min-width: 500px) {
   #home {
     .home-container {
@@ -99,6 +100,7 @@
     }
   }
 }
+
 @media (min-width: 1000px) {
   #home {
     padding: 80px 25vw 0 25vw;

@@ -1,8 +1,11 @@
 #about {
   height: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 6vw;
+
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
 
   picture {
     width: 100%;
@@ -41,7 +44,202 @@
         padding: 2vw;
         width: 10vw;
         background-color: white;
+        box-shadow: 4px 4px 8px rgba(7, 0, 0, 0.39);
       }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  #about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-about {
+      height: fit-content;
+      display: grid;
+      row-gap: 0.5vw;
+      column-gap: 1vw;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas:
+        " img1 title "
+        " img1 p1 "
+        " p2 img2 "
+        " socials img2";
+    }
+
+    .title-section {
+      grid-area: title;
+      margin-top: 1.8vw;
+    }
+
+    .img-about-1 {
+      grid-area: img1;
+    }
+
+    .p-1 {
+      grid-area: p1;
+      align-self: start;
+    }
+
+    .img-about-2 {
+      grid-area: img2;
+    }
+
+    .p-2 {
+      grid-area: p2;
+      margin-top: 1vw;
+    }
+    h2,
+    p {
+      text-shadow: 4px 4px 8px rgba(7, 0, 0, 0.329);
+    }
+
+    .section-socials {
+      grid-area: socials;
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+      padding-top: 0vw;
+
+      h2 {
+        font-family: var(--font-1);
+        font-size: 2.4vw;
+        text-align: center;
+        letter-spacing: 0.4vw;
+        color: var(--text-color-white);
+        margin-bottom: 0.5vw;
+      }
+
+      .icons-about {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2vw;
+        padding: 0;
+
+        img {
+          padding: 1.2vw;
+          width: 3vw;
+          background-color: white;
+        }
+      }
+    }
+
+    picture {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    p {
+      text-align: start;
+      font-family: var(--font-2);
+      font-size: 1.2vw;
+      color: var(--text-color-white);
+      line-height: 2vw;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-about {
+      height: fit-content;
+      display: grid;
+      row-gap: 0.5vw;
+      column-gap: 1vw;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto auto;
+      grid-template-areas:
+        " img1 title "
+        " img1 p1 "
+        " p2 img2 "
+        " socials img2";
+    }
+
+    .title-section {
+      grid-area: title;
+      margin-top: 0.8vw;
+    }
+
+    .img-about-1 {
+      grid-area: img1;
+    }
+
+    .p-1 {
+      grid-area: p1;
+      align-self: start;
+      padding-bottom: 1vw;
+    }
+
+    .img-about-2 {
+      grid-area: img2;
+    }
+
+    .p-2 {
+      grid-area: p2;
+      margin-top: 1.5vw;
+    }
+    h2,
+    p {
+      text-shadow: 4px 4px 8px rgba(7, 0, 0, 0.329);
+    }
+
+    .section-socials {
+      grid-area: socials;
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+      h2 {
+        font-family: var(--font-1);
+        font-size: 1.5vw;
+        text-align: center;
+        letter-spacing: 0.4vw;
+        color: var(--text-color-white);
+        margin-bottom: 0.5vw;
+      }
+
+      .icons-about {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2vw;
+        padding: 0;
+
+        img {
+          padding: 0.8vw;
+          width: 1.4vw;
+          background-color: white;
+        }
+      }
+    }
+
+    picture {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    p {
+      text-align: start;
+      font-family: var(--font-2);
+      font-size: 1vw;
+      color: var(--text-color-white);
+      line-height: 1.4vw;
+      height: fit-content;
     }
   }
 }
