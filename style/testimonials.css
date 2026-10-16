@@ -1,0 +1,123 @@
+#testimonials {
+  height: fit-content;
+  .content-testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  article {
+    padding: 8vw 4vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    box-shadow: 4px 4px 8px rgba(7, 0, 0, 0.39);
+
+    .content-text {
+      width: 100%;
+      margin-left: 5%;
+    }
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      letter-spacing: 0.4vw;
+      text-align: center;
+      h2 {
+        font-size: 7.5vw;
+        font-family: var(--font-1);
+        margin-bottom: 1vw;
+      }
+      h3 {
+        font-size: 5.5vw;
+        font-family: var(--font-1);
+        color: #6b6b6b;
+      }
+    }
+    p {
+      font-size: 4.6vw;
+      line-height: 5vw;
+    }
+    img {
+      width: 30%;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  #testimonials {
+    height: fit-content;
+    padding-top: calc(4vw + 70px);
+    padding-bottom: 4vw;
+
+    .content-testimonials {
+      display: flex;
+      flex-direction: row;
+      gap: 2vw;
+    }
+
+    article {
+      width: 32%;
+      padding: 2vw 2vw;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5vw;
+      header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 0.1vw;
+        h2 {
+          font-size: 2vw;
+          font-family: var(--font-1);
+          margin-bottom: 0.2vw;
+        }
+        h3 {
+          font-size: 1.6vw;
+          font-family: var(--font-1);
+        }
+      }
+      p {
+        font-size: 1.48vw;
+        line-height: 1.8vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #testimonials {
+    .container-testimonials {
+      width: 100%;
+    }
+
+    .content-testimonials {
+      display: flex;
+      flex-direction: row;
+      gap: 2vw;
+    }
+    article {
+      padding: 2vw 1vw;
+      gap: 0.8;
+      header {
+        h2 {
+          font-size: 1.6vw;
+          width: fit-content;
+          width: 100%;
+        }
+        h3 {
+          font-size: 1.1vw;
+          width: fit-content;
+          width: 100%;
+        }
+      }
+      p {
+        font-size: 1vw;
+        line-height: 1.2vw;
+      }
+    }
+  }
+}
