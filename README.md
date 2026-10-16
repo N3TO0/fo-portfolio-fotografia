@@ -10,7 +10,7 @@
 
 Site de portfólio responsivo para fotógrafos, incluindo seções de galeria, informações profissionais, serviços e depoimentos de clientes. Feito com Html Css e JavaScript. Feito para centralização de informações profisisonais, onde contem trabalhos anteriores categorizados, informações sobre o profissional para conectividade com cliente, tipos de serviços que faz, e depoimentos de clientes antigos.
 
-🌐 **Acesse o site:** [https://fo-fotografia.netlify.app](https://fo-fotografia.netlify.app)
+🌐 <strong>Acesse o site:</strong> <a href="https://fo-fotografia.netlify.app" target="_blank" rel="noopener noreferrer">https://fo-fotografia.netlify.app</a>
 
 ### Seção Home:
 
