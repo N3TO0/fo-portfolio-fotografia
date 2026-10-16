@@ -111,6 +111,12 @@
         color: var(--text-color-white);
       }
     }
+
+    /* #services {
+      article {
+        background-color: var(--color-third);
+        color: var(--text-color-white);
+    } */
   }
 
   /* Estilo header (desktop) */
