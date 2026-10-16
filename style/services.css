@@ -1,0 +1,118 @@
+#services {
+  height: fit-content;
+  .content-services {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+  article {
+    padding: 8vw 4vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1vw;
+      h2 {
+        font-size: 7.5vw;
+        font-family: var(--font-1);
+        width: 50%;
+      }
+    }
+    p {
+      font-size: 4.6vw;
+      line-height: 5vw;
+    }
+  }
+
+  picture {
+    width: 30vw;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  #services {
+    height: fit-content;
+    padding-top: calc(4vw + 70px);
+    padding-bottom: 4vw;
+
+    .content-services {
+      display: flex;
+      flex-direction: row;
+      gap: 2vw;
+    }
+    article {
+      width: 32%;
+      padding: 2vw 2vw;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5vw;
+      header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1vw;
+        h2 {
+          font-size: 2.5vw;
+          font-family: var(--font-1);
+          width: 50%;
+        }
+      }
+      p {
+        font-size: 1.48vw;
+        line-height: 1.8vw;
+      }
+    }
+
+    picture {
+      width: 10vw;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  #services {
+
+    .container-services {
+      width: 100%;
+    }
+
+    .content-services {
+      display: flex;
+      flex-direction: row;
+      gap: 2vw;
+    }
+    article {
+      width: 31.1%;
+      padding: 2vw 1vw;
+      gap: 0.8;
+      header {
+        gap: 1vw;
+        h2 {
+          font-size: 1.6vw;
+          width: fit-content;
+        }
+      }
+      p {
+        font-size: 1vw;
+        line-height: 1.2vw;
+      }
+    }
+
+    picture {
+      width: 6.5vw;
+    }
+  }
+}

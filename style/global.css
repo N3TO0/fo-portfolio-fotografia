@@ -111,6 +111,12 @@
         color: var(--text-color-white);
       }
     }
+
+    /* #services {
+      article {
+        background-color: var(--color-third);
+        color: var(--text-color-white);
+    } */
   }
 
   /* Estilo header (desktop) */
@@ -144,7 +150,7 @@ hr {
 }
 
 .title-section {
-  margin-bottom: 8vw;
+  margin-bottom: 2.4vw;
   font-family: var(--font-1);
   font-size: 10vw;
   letter-spacing: 2vw;
@@ -183,6 +189,7 @@ hr {
   }
 
   .title-section {
+    margin-bottom: 1.5vw;
     font-family: var(--font-1);
     font-size: 2.5vw;
     letter-spacing: 0.6vw;

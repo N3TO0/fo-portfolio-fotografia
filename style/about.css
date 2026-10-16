@@ -1,6 +1,7 @@
 #about {
   height: fit-content;
 
+
   .container-about {
     display: flex;
     flex-direction: column;
@@ -56,7 +57,9 @@
 
 @media (min-width: 500px) {
   #about {
-    height: 100vh;
+    height: fit-content;
+    padding-bottom: 12vw;
+    padding-top: 12vw;
     display: flex;
     justify-content: center;
     align-items: center;
