@@ -1,5 +1,6 @@
 #testimonials {
   height: fit-content;
+  margin-bottom: 6vw;
   .content-testimonials {
     display: flex;
     flex-direction: column;
