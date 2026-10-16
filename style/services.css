@@ -10,7 +10,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 4vw;
     box-shadow: 4px 4px 8px rgba(7, 0, 0, 0.39);
     header {
       display: flex;
