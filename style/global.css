@@ -42,6 +42,14 @@
     background-color: var(--color-fourth);
   }
 
+  main {
+    #portfolio {
+      .button-portfolio {
+        background-color: var(--color-fourth);
+      }
+    }
+  }
+
   /* Estilo header (desktop) */
   @media (min-width: 700px) {
     .menu-select {
@@ -75,21 +83,9 @@
     background-color: transparent;
     box-shadow: none;
   }
-  
+
   .mode-button {
     background-color: var(--color-third);
-  }
-
-  /* Estilo header (desktop) */
-  @media (min-width: 700px) {
-    .menu-select {
-      background-color: var(--color-second);
-      box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
-      a {
-        color: var(--text-color-black);
-        text-shadow: 4px 4px 6px rgba(14, 0, 0, 0.25);
-      }
-    }
   }
 
   main {
@@ -113,6 +109,18 @@
       .button-portfolio {
         background-color: var(--color-third);
         color: var(--text-color-white);
+      }
+    }
+  }
+
+  /* Estilo header (desktop) */
+  @media (min-width: 700px) {
+    .menu-select {
+      background-color: var(--color-second);
+      box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+      a {
+        color: var(--text-color-black);
+        text-shadow: 4px 4px 6px rgba(14, 0, 0, 0.25);
       }
     }
   }
