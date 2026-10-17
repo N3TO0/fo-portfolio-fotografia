@@ -102,10 +102,6 @@ fo-portfolio-fotografia/
 │   ├── icon/               <-- Icones do site
 │   └── img/                <-- Imagens do site
 │       └── portfolio/      <-- Imagens do portfolio separada por categoria
-│           ├── eventos/
-│           ├── gastronomia/
-│           ├── geral/
-│           └── pessoal/
 │── style/                  <-- arquivos css com estilizações
 ├── index.html              <-- arquivo html principal e inicial
 ├── LICENSE                 <-- Licença do projeto
