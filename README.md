@@ -20,7 +20,7 @@ Site de portfólio responsivo para fotógrafos, incluindo seções de galeria, i
 
 <img  width="80%" src=".github/assets/section-profissional.png" alt="imagem mostrando a seção sobre o profissional do projeto">
 
-### Seção de Portfolio:\*\*
+### Seção de Portfolio:
 
 <img  width="80%" src=".github/assets/section-portfolio.png" alt="imagem mostrando a seção de portfolio do projeto">
 
