@@ -36,7 +36,6 @@ Site de portfólio responsivo para fotógrafos, incluindo seções de galeria, i
 
 - Alternador de Tema.
 - Filtragem Categorizada de Portfolio.
-- Ampliação de Foto.
 - Direcionamento para redes.
 
 ## 🛠️ Tecnologias Utilizadas
