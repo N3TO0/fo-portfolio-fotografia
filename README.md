@@ -10,7 +10,7 @@
 
 Site de portfólio responsivo para fotógrafos, incluindo seções de galeria, informações profissionais, serviços e depoimentos de clientes. Feito com Html Css e JavaScript. Feito para centralização de informações profisisonais, onde contem trabalhos anteriores categorizados, informações sobre o profissional para conectividade com cliente, tipos de serviços que faz, e depoimentos de clientes antigos.
 
-🌐 <strong>Acesse o site:</strong> <a href="https://fo-fotografia.netlify.app" target="_blank" rel="noopener noreferrer">https://fo-fotografia.netlify.app</a>
+🌐 <strong>Acesse o site:</strong> <a href="https://fo-portfolio-fotografia.vercel.app" target="_blank" rel="noopener noreferrer">https://fo-portfolio-fotografia.vercel.app</a>
 
 ### Seção Home:
 
@@ -54,7 +54,7 @@ Site de portfólio responsivo para fotógrafos, incluindo seções de galeria, i
 
 **Hospedagem:**
 
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## 🚀 Como executar o projeto
 
