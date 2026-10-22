@@ -35,7 +35,7 @@
     }
   }
   /* Portifolio */
-  #portfolio {
+  .portfolio {
     .button-portfolio:hover {
       transition: 0.5s;
       background-color: var(--color-third);
@@ -86,7 +86,7 @@
     }
   }
   /* Portifolio */
-  #portfolio {
+  .portfolio {
     .button-portfolio:hover {
       background-color: var(--color-second);
       color: var(--text-color-black);

@@ -1,4 +1,9 @@
-#portfolio {
+main {
+  .portfolio-page {
+    padding-top: 4vh;
+  }
+}
+.portfolio {
   height: fit-content;
 
   .container-portfolio {
@@ -76,7 +81,12 @@
 }
 
 @media (min-width: 500px) {
-  #portfolio {
+  main {
+    .portfolio-page {
+      padding-top: 4vw;
+    }
+  }
+  .portfolio {
     height: fit-content;
     padding-bottom: 10vw;
     padding-top: 15vw;
@@ -160,7 +170,13 @@
 }
 
 @media (min-width: 1000px) {
-  #portfolio {
+  main {
+    .portfolio-page {
+      padding-top: 2vw;
+      height: fit-content;
+    }
+  }
+  .portfolio {
     height: 100vh;
     padding-bottom: 3vw;
     padding-top: calc(3vw + 60px);
@@ -243,7 +259,13 @@
 }
 
 @media (min-width: 1400px) {
-  #portfolio {
+  main {
+    .portfolio-page {
+      padding-top: 2vw;
+      height: fit-content;
+    }
+  }
+  .portfolio {
     height: fit-content;
     padding-bottom: 3vw;
     padding-top: calc(3vw + 60px);
