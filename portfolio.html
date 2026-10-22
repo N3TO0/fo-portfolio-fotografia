@@ -54,11 +54,21 @@
 
     <main>
       <section class="filter-portfolio">
-        <button class="button-filter-child bt-select bt-personal">
+        <button
+          class="button-filter-child bt-select bt-personal"
+          data-filter="personal"
+        >
           Pessoal
         </button>
-        <button class="button-filter-child bt-gastronomy">Gastronômico</button>
-        <button class="button-filter-child bt-event">eventos</button>
+        <button
+          class="button-filter-child bt-gastronomy"
+          data-filter="gastronomy"
+        >
+          Gastronômico
+        </button>
+        <button class="button-filter-child bt-event" data-filter="event">
+          eventos
+        </button>
       </section>
 
       <hr />
@@ -162,7 +172,6 @@
         </div>
       </section>
 
-
       <section class="portfolio portfolio-page hidden" data-filter="gastronomy">
         <div class="container-portfolio">
           <h1 class="title-section">Artística & Gastronômica</h1>
@@ -263,7 +272,6 @@
           </div>
         </div>
       </section>
-
 
       <section class="portfolio portfolio-page hidden" data-filter="event">
         <div class="container-portfolio">
@@ -488,5 +496,6 @@
 
     <script src="script/script.js" defer></script>
     <script src="script/tema-portfolio.js" defer></script>
+    <script src="script/filter.js" defer></script>
   </body>
 </html>
