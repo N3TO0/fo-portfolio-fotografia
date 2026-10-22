@@ -6,10 +6,6 @@
       border-bottom: 4px solid var(--color-fourth);
       transition: 0.1s;
     }
-    .logo:hover {
-      border: none;
-      transition: 0.2s;
-    }
     .logo-header:hover {
       width: 65px;
       margin-top: 0.8vw;
